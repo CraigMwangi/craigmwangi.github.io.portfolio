@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Craig Mwangi",
+  title: "Hi! I'm Craig!",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Graduate Software Developer 🚀 with experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native for Business Concepts and User-Centric Products."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // CV LINK
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/CraigMwangi",
+  linkedin: "https://www.linkedin.com/in/craig-mwangi-404208166",
+  gmail: "craigmwangi1@gmail.com",
+  gitlab: "https://gitlab.com/CraigMwangi",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +46,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Creative and computing solutions for Businesses, Markets and Individuals",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean, Google API's, Youtube API's, Spotify API's"
     )
   ],
 
@@ -126,22 +123,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Goldsmiths University",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Bachelors of Science- Upper Division Second Class Honours in Business Computing and Entrepreneurship",
+      duration: "September 2020 - April 2024",
+      desc: "Developed apps and delivered projects with an entreprenuerial mindset to maximise and achieve business goals.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "St Anselm's Catholic School",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      subHeader: "A Level Business & BTEC Information Technology",
+      duration: "September 2018 - June 2020",
+      desc: "Achieved the highest merit of Distinction within Information Technology and performed top of the class in Business",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -174,31 +171,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Customer Advisor",
+      company: "Three",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "September 2020 – Present",
+      desc: "Focus on understanding individual customer needs, providing tailored solutions, and delivering excellent service to enhance the customer experience.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+ " • Consistently achieved store and personal KPI’s to ensure the business met volume."
+ " • Built strong customer-facing skills, with a focus on digital upgrades and device support."
+ " • Routinely adapted to in-store systems, delivering accurate diagnostics and personalised solutions."
+ " • Demonstrated problem-solving and collaborative skills under pressure."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Customer Assistant",
+      company: "Morrisons",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "May 2020 – September 2020",
+      desc: "Responsible for providing excellent customer service and maintaining the smooth operation of the store during the pandemic."
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
-  ]
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -212,17 +203,17 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Gigify",
+  subtitle: "Geolocation Live Music Discovery App",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Gigify",
+      projectDesc: "• A full-stack application for discovering live and local performances by unsigned artists. • Features included user-uploaded gigs, artist profiles, and location-based discovery. • Focused on UI/UX simplicity and artist empowerment.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Gigify",
+          url: "https://craigmwangi.github.io/home"
         }
         //  you can add extra buttons here.
       ]
