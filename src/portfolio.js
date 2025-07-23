@@ -23,7 +23,7 @@ const greeting = {
   username: "Craig Mwangi",
   title: "Hi! I'm Craig!",
   subTitle: emoji(
-    "A passionate Graduate Software Developer 🚀 with experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native for Business Concepts and User-Centric Products."
+    "Graduate Software Developer with hands-on experience building web and mobile apps using JavaScript, React, Node.js, and Firebase. Focused on clean code, scalability, and delivering real business value."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // CV LINK
@@ -129,8 +129,10 @@ const educationInfo = {
       duration: "September 2020 - April 2024",
       desc: "Developed apps and delivered projects with an entreprenuerial mindset to maximise and achieve business goals.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Practical experience with digital technologies and computing",
+        "Critical thinking and problem-solving in tech-driven contexts",
+        "Exposure to major business areas: IT, finance, marketing, and management",
+        "Awareness of emerging tech trends and their business impact"
       ]
     },
     {
@@ -139,9 +141,12 @@ const educationInfo = {
       subHeader: "A Level Business & BTEC Information Technology",
       duration: "September 2018 - June 2020",
       desc: "Achieved the highest merit of Distinction within Information Technology and performed top of the class in Business",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
+      descBullets: [
+        "Understanding of business operations, finance, and marketing", 
+        "Analytical thinking and decision-making based on real-world data", 
+        "Understanding of cybersecurity, data management, and cloud computing", 
+        "Experience with software development and web technologies"
+      ]
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -149,6 +154,10 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
+    {
+      Stack: "Creativity", //Insert stack or technology you have experience in
+      progressPercentage: "110%" //Insert relative proficiency in percentage
+    },
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
@@ -203,8 +212,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Gigify",
-  subtitle: "Geolocation Live Music Discovery App",
+  title: "My Projects",
+  subtitle: "All projects created by Craig Mwangi.",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
@@ -213,19 +222,35 @@ const bigProjects = {
       footerLink: [
         {
           name: "Gigify",
-          url: "https://craigmwangi.github.io/home"
+          url: "https://craigmwangi.github.io/Gigify2",
+          
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Beatify",
+      projectDesc: "• Instantly search YouTube for instrumentals by tag or artist style." "• View original video links and descriptions with no distractions." "• Powered by YouTube & Firebase - fast, server-side API with cached beat data for performance.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Beatify",
+          url: "https://craigmwangi.github.io/Beatify1",
+          
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+
+  
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "MyTaskApp",
+      projectDesc: "• A simple web-based to-do application built with Flask. • Allows users to add tasks, categorize them, set a priority level, and a deadline. • Mark tasks as completed or delete them.",
+      footerLink: [
+        {
+          name: "MyTaskApp",
+          url: "https://craigmwangi.github.io/MyTaskApp",
         }
       ]
     }
@@ -243,28 +268,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "March on Canterbury",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Organised and led a major community event in support of Black Lives Matter with 1000+ attendees, securing support from figures such as the Archbishop of Canterbury and local government.",
       image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "Image of attendees on the March on Canterbury event",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+          name: "Kent Online Article",
+          url: "https://www.kentonline.co.uk/kent/news/thousands-march-in-black-lives-matter-protests-228693/"
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Add another",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/googleAssistantLogo.webp"),
@@ -278,7 +294,7 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
+      title: "Add another",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
@@ -337,18 +353,6 @@ const talkSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
 
 // Resume Section
 const resumeSection = {
@@ -362,16 +366,8 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
-};
-
-// Twitter Section
-
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+    "Discuss a project, job or just want to say hi? My Inbox is open for all.",
+  email_address: "craigmwangi1@gmail.com"
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
